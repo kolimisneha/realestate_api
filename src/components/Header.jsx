@@ -1,5 +1,5 @@
 import {FaSearch} from 'react-icons/fa';
-import {link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 export default function Header() {
   return (
     <header className='bg-slate-200 shadow-md'> 
@@ -27,6 +27,7 @@ export default function Header() {
            </Link>
             </ul>
         </div>
+      
     </header>
   );
 }
