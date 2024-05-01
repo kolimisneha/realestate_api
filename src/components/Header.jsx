@@ -6,7 +6,7 @@ export default function Header() {
     <div className='flex justify-between items-center max-w-6xl max-auto p-3'>
     <Link to='/'>
         <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-state-500'>Sahand</span>
+            <span className='text-state-500'>CS</span>
             <span className='text-state-700'>Estate</span>
 
         </h1>
@@ -22,7 +22,7 @@ export default function Header() {
             <Link to='/about'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>About</li>
             </Link>
-            <Link to='/sign-in'>
+            <Link to='/signin'>
            <li className='text-slate-700 hover:underline'>Sign in</li>
            </Link>
             </ul>
