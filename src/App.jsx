@@ -10,6 +10,14 @@ import CreateListing from './pages/CreateListing';
 import UpdateListing from './pages/UpdateListing';
 import Listing from './pages/Listing';
 import Search from './pages/Search';
+import axios from 'axios';
+
+// Define the base URL for your API requests
+const API_BASE_URL = 'https://realestate-mernstack-api.vercel.app'; // Replace 'your-domain.com' with your actual domain
+
+// Set the base URL for Axios
+axios.defaults.baseURL = API_BASE_URL;
+
 
 export default function App() {
   return (
